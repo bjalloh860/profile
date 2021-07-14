@@ -1,0 +1,194 @@
+ css styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/*--------header styling start-------------*/
+.navbar {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  padding: 15px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding-left: 20px;
+
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: lightblue;
+}
+
+
+.heading {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.heading h5{
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 300;
+  color: #000;
+}
+
+.heading h1{
+  font-size: 6em;
+  font-weight: 600;
+  color: #000;
+  font-family: sans-serif;
+}
+
+.heading p{
+  margin: 10px;
+  font-size: 2em;
+  font-weight: 100;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*--------header styling end-------------*/
+
+
+
+/*------------about styling-----------------*/
+
+.display-4 {
+  margin: 60px !important;
+}
+
+
+/*------------about styling end-----------------*/
+
+
+/*------------contact-me styling---------------*/
+
+./*form-horizontal .form-group .form-control {
+  position: center !important;
+  color: blue !important;
+}*/
+
+
+
+/*-----------contact-me styling end-------------*/
+
+
+
+/*-----------bootstrap styling ------------------*/
+
+.paragraphs .row .paragraph{
+  float: auto;
+  margin:1px !important;
+  align-content: space-around;
+  justify-content: space-between;
+  padding: 50px;
+  width: 25%;
+  grid-gap: 50px !important;
+  border: 20px solid lightblue;
+  background-color: #EEEEEE;
+}
+
+/*-----------bootstrap styling end---------------*/
+
+
+
+/*------------------css styling ------------------*/
+
+.css-header h1{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+.css-header hr{
+  display: block;
+  margin-top: 5em;
+  width: 40%
+
+}
+.col-main {
+  flex: 1;  
+}  
+
+.col-complementary {
+  flex: 1;  
+}
+
+/* Responsive columns*/
+
+@media only screen and (min-width: 640px) {
+  .layout {
+    display: flex;
+  }
+}
+
+/*container styling in css page*/
+.container {
+  max-width: 60em;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+
+}
+
+.col {
+  padding: 1em;
+  margin: 0 2px 2px 0;
+
+}
+
+/*css alert styling*/
+.alert1 {
+  padding: 15px;
+  background-color: #ff9999; 
+  color: black;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white !important;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.closebtn:hover {
+  color: black;
+}
+
+/*css footer styling*/
+.footer1 {
+  text-align: center;
+  position: fixed;
+  font-weight: bold;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 60px !important; 
+  line-height: 60px!important ; 
+  background-color: #f5f5f5 !important;
+}
+/*------------------css styling end---------------*/
+
+
+
+/*-----------------footer styling---------------*/
+/*footer styling for every page but the css*/
+.footer {
+  position: fixed;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 60px !important; 
+  line-height: 60px!important ; 
+  background-color: #f5f5f5 !important;
+  }
+/*------------------footer styling end---------------
